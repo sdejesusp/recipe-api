@@ -22,8 +22,8 @@ RUN python3 -m venv /py && \
 
 
   
-  RUN chown -R app:app /app
+  # RUN chown -R app:app /app
 
   ENV PATH="/py/bin:$PATH"
   
-  USER app
+  # USER app
